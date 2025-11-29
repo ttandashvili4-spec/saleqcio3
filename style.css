@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(202, 86%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.left {
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 100px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h3 {
+    color: hsl(200, 24%, 40%);
+    margin-bottom: 5px;
+}
+
+.amount-div {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.amount-div .amount {
+    display: flex;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 45px;
+}
+
+.pound-sign {
+    background-color: hsl(203, 41%, 72%);
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    padding: 12px 20px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.amount input {
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-left: 2px;
+}
+
+.amount input:focus {
+    outline: none;
+}
+
+.right {
+    background-color: hsl(202, 55%, 16%);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 50px;
+}
+
+.right p {
+    width: 200px;
+}
+
+.term-rate input {
+    width: 100%;
+    outline: black;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-left: 2px;
+
+}
+
+.term-rate {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    border-radius: 5px;
+    height: 45px;
+}

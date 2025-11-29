@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Mortgage repayment calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <div class="main">
+      <div class="left">
+        <div class="header">
+          <h1>Mortgage calculator</h1>
+          <p class="clear">Clear All</p>
+        </div>
+
+        <div class="amount-div">
+          <h3>Mortgage Amount</h3>
+          <div class="amount">
+            <p class="pound-sign">£</p>
+            <input type="number" />
+          </div>
+        </div>
+
+        <div class="term-rate">
+          <div class="term">
+            <h3>Mortgage Term</h3>
+            <input type="number" />
+            <p>years</p>
+          </div>
+
+          <div class="rate">
+            <h3>Interest Rate</h3>
+            <input type="number" />
+            <p>%</p>
+          </div>
+        </div>
+
+        <div class="mortgage-type">
+          <h3>Mortgage Trype</h3>
+          <div class="repayment">
+            <input type="radio" />
+            <label for="">Repayment</label>
+          </div>
+
+          <div class="Interest-only">
+            <input type="radio" />
+            <label for="">Interest Only</label>
+          </div>
+        </div>
+
+        <button>
+          <img src="icon-calculator.svg" alt="" />
+          <p>Calculate Repayment</p>
+        </button>
+      </div>
+      <div class="right">
+        <img class="poo" src="illustration-empty.svg" alt="" />
+        <h2>Results shown here</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          omnis, eos corporis mollitia unde nostrum dolorum harum repudiandae
+          consectetur repellendus!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
